@@ -5,12 +5,12 @@
 package negronimodified
 
 import (
-	`bufio`
-	`io/ioutil`
-	`net/http`
-	`strings`
+	"bufio"
+	"io/ioutil"
+	"net/http"
+	"strings"
 
-	`github.com/codegangsta/negroni`
+	"github.com/codegangsta/negroni"
 )
 
 const headerCacheControl string = `Cache-Control` // Cache mechanism

@@ -5,9 +5,9 @@
 package negronimodified
 
 import (
-	`net/http`
-	`testing`
-	`time`
+	"net/http"
+	"testing"
+	"time"
 )
 
 func TestIfModifiedSince(t *testing.T) {
