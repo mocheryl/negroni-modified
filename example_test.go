@@ -5,10 +5,10 @@
 package negronimodified
 
 import (
-	`fmt`
-	`net/http`
+	"fmt"
+	"net/http"
 
-	`github.com/codegangsta/negroni`
+	"github.com/codegangsta/negroni"
 )
 
 // NewModified basic usage.

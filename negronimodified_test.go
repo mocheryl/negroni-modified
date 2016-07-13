@@ -5,12 +5,12 @@
 package negronimodified
 
 import (
-	`bufio`
-	`net/http`
-	`net/http/httptest`
-	`testing`
+	"bufio"
+	"net/http"
+	"net/http/httptest"
+	"testing"
 
-	`github.com/codegangsta/negroni`
+	"github.com/codegangsta/negroni"
 )
 
 type respWriteTest struct {
